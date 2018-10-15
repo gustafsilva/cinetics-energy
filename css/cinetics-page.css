@@ -23,6 +23,22 @@
     margin-top: 2em;
 }
 
+/*=== Calculo ===*/
+.calculo {
+    background: rgb(42, 136, 217);
+}
+
+/*== Propaganda ==*/
+.propaganda {
+    background: rgb(20, 190, 192);
+}
+
+/*== Mais informações ==*/
+.mais-informacoes {
+    background: rgb(4, 230, 173);
+}
+
+
 /*=== Configurações Gerais ===*/
 /*== Fonts ==*/
 h1, h2, h3, h4, h5, h6 {
@@ -35,9 +51,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*== Fundos ==*/
-.call-to-action {
-    background: rgb(42, 136, 217);
-}
+
 
 
 /*== Redes Sociais ==*/
