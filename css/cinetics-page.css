@@ -34,6 +34,12 @@ h1, h2, h3, h4, h5, h6 {
     color: rgb(66, 66, 66);
 }
 
+/*== Fundos ==*/
+.call-to-action {
+    background: rgb(42, 136, 217);
+}
+
+
 /*== Redes Sociais ==*/
 .email {
     color: rgb(4, 230, 173);
