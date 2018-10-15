@@ -39,5 +39,11 @@
         "gulp-header": "2.0.5",
         "gulp-rename": "1.4.0",
         "gulp-sass": "4.0.1"
+    },
+    "scripts": {
+        "dev": "gulp dev",
+        "browserSync": "gulp browserSync",
+        "css": "gulp css",
+        "vendor": "gulp vendor"
     }
 }
