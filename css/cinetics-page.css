@@ -1,0 +1,98 @@
+/*=== Configurações Gerais === */
+@font-face {
+    font-family: HeadingProTrial;
+    src: url(../fonts/Heading-Pro-Book-trial.ttf);
+}
+
+/*=== Cabecalho ===*/
+#logo {
+    max-width: 100px;
+    margin-top: -7px;
+}
+
+.bg-light {
+    background-color: #fff !important;
+}
+
+header.masthead {
+    background: url(../img/fundo-sustentavel.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+
+header.masthead .overlay {
+    background-color: #fafafa;
+}
+
+.masthead h1 {
+    font-family: 'HeadingProTrial';
+}
+
+/*=== Propostas ===*/
+.features-icons-icon img {
+    margin-bottom: 1em;
+}
+
+/*=== Sobre Nos ===*/
+.showcase-img img {
+    margin-top: 2em;
+}
+
+/*=== Calculo ===*/
+.calculo {
+    background: rgb(42, 136, 217);
+}
+
+/*== Propaganda ==*/
+.propaganda {
+    background: rgb(20, 190, 192);
+}
+
+/*=== Parceiros ===*/
+.nossos-parceiros img {
+    max-width: 200rem;
+}
+
+/*== Mais informações ==*/
+.mais-informacoes {
+    background: rgb(4, 230, 173);
+}
+
+
+/*=== Configurações Gerais ===*/
+/*== Fonts ==*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: HeadingProTrial, Lato,'Helvetica Neue', Helvetica,Arial, sans-serif;
+    margin-bottom: 0.8em;
+}
+
+/*== Cores ==*/
+.black {
+    color: rgb(66, 66, 66);
+}
+
+/*== Fundos ==*/
+
+
+
+/*== Redes Sociais ==*/
+.email {
+    color: rgb(4, 230, 173);
+}
+
+.facebook {
+    color: rgb(59, 89, 152);
+}
+
+.instagram {
+    color: rgb(81, 127, 164);
+}
+
+.linkedin {
+    color: rgb( 0, 123, 182);
+}
+
+.redes-sociais:hover {
+    opacity: 0.7;
+}
