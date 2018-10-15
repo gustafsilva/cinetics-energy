@@ -14,9 +14,22 @@
     background-color: #fff !important;
 }
 
+header.masthead {
+    background: url(../img/fundo-sustentavel.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 11rem;
+    padding-bottom: 11rem;
+}
+
+header.masthead .overlay {
+    background-color: #fafafa;
+}
+
 .masthead h1 {
     font-family: 'HeadingProTrial';
 }
+
+
 
 /*=== Sobre Nos ===*/
 .showcase-img img {
