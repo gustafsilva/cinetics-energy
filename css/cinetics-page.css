@@ -46,6 +46,11 @@ header.masthead .overlay {
     background: rgb(20, 190, 192);
 }
 
+/*=== Parceiros ===*/
+.nossos-parceiros img {
+    max-width: 200rem;
+}
+
 /*== Mais informações ==*/
 .mais-informacoes {
     background: rgb(4, 230, 173);
