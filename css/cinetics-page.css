@@ -29,7 +29,10 @@ header.masthead .overlay {
     font-family: 'HeadingProTrial';
 }
 
-
+/*=== Propostas ===*/
+.features-icons-icon img {
+    margin-bottom: 1em;
+}
 
 /*=== Sobre Nos ===*/
 .showcase-img img {
@@ -61,6 +64,7 @@ header.masthead .overlay {
 /*== Fonts ==*/
 h1, h2, h3, h4, h5, h6 {
     font-family: HeadingProTrial, Lato,'Helvetica Neue', Helvetica,Arial, sans-serif;
+    margin-bottom: 0.8em;
 }
 
 /*== Cores ==*/
