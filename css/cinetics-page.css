@@ -10,6 +10,10 @@
     margin-top: -7px;
 }
 
+.bg-light {
+    background-color: #fff !important;
+}
+
 .masthead h1 {
     font-family: 'HeadingProTrial';
 }
