@@ -28,3 +28,24 @@
 h1, h2, h3, h4, h5, h6 {
     font-family: HeadingProTrial, Lato,'Helvetica Neue', Helvetica,Arial, sans-serif;
 }
+
+/*== Redes Sociais ==*/
+.email {
+    color: rgb(4, 230, 173);
+}
+
+.facebook {
+    color: rgb(59, 89, 152);
+}
+
+.instagram {
+    color: rgb(81, 127, 164);
+}
+
+.linkedin {
+    color: rgb( 0, 123, 182);
+}
+
+.redes-sociais:hover {
+    opacity: 0.7;
+}
