@@ -22,3 +22,9 @@
 .showcase-img img {
     margin-top: 2em;
 }
+
+/*=== Configurações Gerais ===*/
+/*== Fonts ==*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: HeadingProTrial, Lato,'Helvetica Neue', Helvetica,Arial, sans-serif;
+}
