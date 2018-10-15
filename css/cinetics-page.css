@@ -13,3 +13,8 @@
 .masthead h1 {
     font-family: 'HeadingProTrial';
 }
+
+/*=== Sobre Nos ===*/
+.showcase-img img {
+    margin-top: 2em;
+}
