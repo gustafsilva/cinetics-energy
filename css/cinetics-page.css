@@ -76,6 +76,14 @@ header.masthead .overlay {
 .mais-informacoes {
     background: rgb(4, 230, 173);
 }
+.mais-informacoes button {
+    background-color: rgb(63,87,240);
+    border-color: rgb(42,136,217);
+}
+
+.mais-informacoes button:hover{
+    opacity: 0.8;
+}
 
 
 /*=== Configurações Gerais ===*/
