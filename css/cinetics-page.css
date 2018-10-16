@@ -39,8 +39,9 @@ header.masthead .overlay {
 }
 
 /*=== Sobre Nos ===*/
-.showcase-img img {
-    margin-top: 2em;
+
+#quem-somos h2 {
+    margin-top: -6rem;
 }
 
 /*=== Calculo ===*/
