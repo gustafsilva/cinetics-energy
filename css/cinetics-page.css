@@ -15,14 +15,14 @@
 }
 
 header.masthead {
-    background: url(../img/fundo-sustentavel.jpg) no-repeat center;
+    background: url(../img/fundo-sustentavel2.jpg) no-repeat center;
     background-size: cover;
     padding-top: 11rem;
     padding-bottom: 11rem;
 }
 
 header.masthead .overlay {
-    background-color: #fafafa;
+    background-color: #424242;
 }
 
 .masthead h1 {
@@ -43,6 +43,11 @@ header.masthead .overlay {
 .calculo {
     background: rgb(42, 136, 217);
 }
+
+.calculo-energia input {
+    font-size: 2em;
+}
+
 
 /*== Propaganda ==*/
 .propaganda {
