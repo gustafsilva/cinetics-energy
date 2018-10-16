@@ -3,6 +3,10 @@
     font-family: HeadingProTrial;
     src: url(../fonts/Heading-Pro-Book-trial.ttf);
 }
+@font-face {
+    font-family: MADEProBook;
+    src: url(../fonts/MADE-Type-Canvas.otf);
+}
 
 /*=== Cabecalho ===*/
 #logo {
@@ -48,6 +52,15 @@ header.masthead .overlay {
     font-size: 2em;
 }
 
+#resultado-calculo {
+    font-family: MADEProBook;
+    font-size: 3em;
+}
+
+#resultado-calculo span {
+    font-family: HeadingProTrial;
+    font-size: 0.5em;
+}
 
 /*== Propaganda ==*/
 .propaganda {
