@@ -81,6 +81,10 @@ header.masthead .overlay {
     background: rgb(20, 190, 192);
 }
 
+.propaganda h2 {
+    font-size: 3em;
+}
+
 /*=== Parceiros ===*/
 .nossos-parceiros img {
     max-width: 200rem;
