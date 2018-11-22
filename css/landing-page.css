@@ -4,6 +4,7 @@
  * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-landing-page/blob/master/LICENSE)
  */
 
+@charset "UTF-8";
 body {
   font-family: 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 }
@@ -124,4 +125,161 @@ header.masthead h1 {
 footer.footer {
   padding-top: 4rem;
   padding-bottom: 4rem;
+}
+
+/*=== Configurações Gerais === */
+@font-face {
+  font-family: HeadingProTrial;
+  src: url(../fonts/Heading-Pro-Book-trial.ttf);
+}
+
+@font-face {
+  font-family: MADEProBook;
+  src: url(../fonts/MADE-Type-Canvas.otf);
+}
+
+/*=== Cabecalho ===*/
+.menu-top #logo {
+  max-width: 100px;
+  margin-top: -7px;
+}
+
+.menu-top .bg-light {
+  background-color: #fff !important;
+}
+
+header.masthead {
+  background: url(../img/fundo-sustentavel2.jpg) no-repeat center;
+  background-size: cover;
+  padding-top: 17rem;
+  padding-bottom: 15em;
+}
+
+header.masthead .overlay {
+  background-color: #424242;
+}
+
+header.masthead h1 {
+  font-family: 'HeadingProTrial';
+}
+
+/*=== Propostas ===*/
+#propostas {
+  padding-top: 10rem;
+  padding-bottom: 7rem;
+}
+
+#propostas .features-icons-icon img {
+  margin-bottom: 1em;
+}
+
+/*=== Sobre Nos ===*/
+#quem-somos {
+  padding-top: 7rem;
+  padding-bottom: 8rem;
+}
+
+#quem-somos .showcase-img {
+  min-height: 0;
+  background-size: cover;
+}
+
+#quem-somos .showcase-text {
+  margin-top: -3rem;
+  padding: 2rem;
+}
+
+/*=== Calculo ===*/
+.calculo {
+  background: #2a88d9;
+}
+
+.calculo .calculo-energia input {
+  font-size: 2em;
+}
+
+.calculo .calculo-energia img {
+  width: 5em;
+}
+
+.calculo #resultado-calculo {
+  font-family: MADEProBook;
+  font-size: 3em;
+}
+
+.calculo #resultado-calculo span {
+  font-family: HeadingProTrial;
+  font-size: 0.5em;
+}
+
+/*== Propaganda ==*/
+.propaganda {
+  background: #14bec0;
+}
+
+.propaganda h2 {
+  font-size: 3em;
+}
+
+/*=== Parceiros ===*/
+#parceiros {
+  padding-bottom: 9rem;
+}
+
+#parceiros .parceiro {
+  margin-bottom: 2rem;
+}
+
+#parceiros img {
+  max-width: 200rem;
+}
+
+/*== Mais informações ==*/
+.mais-informacoes {
+  padding-top: 17rem;
+  padding-bottom: 18rem;
+  background: #04e6ad;
+}
+
+.mais-informacoes button {
+  background-color: #3f57f0;
+  border-color: #2a88d9;
+}
+
+.mais-informacoes button :hover {
+  opacity: 0.8;
+}
+
+/*=== Configurações Gerais ===*/
+/*== Fonts ==*/
+h1, h2, h3, h4, h5, h6 {
+  font-family: HeadingProTrial, Lato,'Helvetica Neue', Helvetica,Arial, sans-serif;
+  margin-bottom: 0.8em;
+}
+
+/*== Cores ==*/
+.black {
+  color: #424242;
+}
+
+/*== Fundos ==*/
+/*== Redes Sociais ==*/
+.email {
+  color: #ffd148;
+}
+
+.facebook {
+  color: #3b5998;
+}
+
+.instagram {
+  color: #517fa4;
+}
+
+.linkedin {
+  color: #007bb6;
+}
+
+.redes-sociais:hover {
+  opacity: 0.7;
 }

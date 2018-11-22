@@ -15,6 +15,8 @@ $(document).ready(function ($) {
     , nav_height = nav.outerHeight();
 
   $(window).on('scroll', function () {
+    $('.active').removeClass('active');
+
     var cur_pos = $(this).scrollTop();
 
     sections.each(function () {

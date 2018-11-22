@@ -1,0 +1,163 @@
+/*=== Configurações Gerais === */
+@font-face {
+    font-family: HeadingProTrial;
+    src: url(../fonts/Heading-Pro-Book-trial.ttf);
+}
+@font-face {
+    font-family: MADEProBook;
+    src: url(../fonts/MADE-Type-Canvas.otf);
+}
+
+/*=== Cabecalho ===*/
+.menu-top {
+    #logo {
+        max-width: 100px;
+        margin-top: -7px;
+    }
+    
+    .bg-light {
+        background-color: #fff !important;
+    }
+}
+
+header.masthead {
+    background: url(../img/fundo-sustentavel2.jpg) no-repeat center;
+    background-size: cover;
+    padding-top: 17rem;
+    padding-bottom: 15em;
+
+    .overlay {
+        background-color: #424242;
+    }
+
+    h1 {
+        font-family: 'HeadingProTrial';
+    }
+}
+
+/*=== Propostas ===*/
+#propostas {
+    padding-top: 10rem;
+    padding-bottom: 7rem;
+
+    .features-icons-icon img {
+        margin-bottom: 1em;
+    }
+}
+
+
+/*=== Sobre Nos ===*/
+#quem-somos {
+    padding-top: 7rem;
+    padding-bottom: 8rem;
+
+    .showcase-img {
+        min-height: 0;
+        background-size: cover;
+    }
+
+    .showcase-text {
+        margin-top: -3rem;
+        padding: 2rem;
+    }
+}
+
+/*=== Calculo ===*/
+.calculo {
+    background: rgb(42, 136, 217);
+
+    .calculo-energia {
+        input {
+            font-size: 2em;
+        }
+
+        img {
+            width: 5em;
+        }
+    }
+
+    #resultado-calculo {
+        font-family: MADEProBook;
+        font-size: 3em;
+
+        span {
+            font-family: HeadingProTrial;
+            font-size: 0.5em;
+        }
+    }
+}
+
+/*== Propaganda ==*/
+.propaganda {
+    background: rgb(20, 190, 192);
+
+    h2 {
+        font-size: 3em;
+    }
+}
+
+/*=== Parceiros ===*/
+#parceiros {
+    padding-bottom: 9rem;
+
+    .parceiro {
+        margin-bottom: 2rem;
+    }
+
+    img {
+        max-width: 200rem;
+    }
+}
+
+/*== Mais informações ==*/
+.mais-informacoes {
+    padding-top: 17rem;
+    padding-bottom: 18rem;
+    background: rgb(4, 230, 173);
+
+    button {
+        background-color: rgb(63,87,240);
+        border-color: rgb(42,136,217);
+    
+        :hover{
+            opacity: 0.8;
+        }
+    }
+}
+
+/*=== Configurações Gerais ===*/
+/*== Fonts ==*/
+h1, h2, h3, h4, h5, h6 {
+    font-family: HeadingProTrial, Lato,'Helvetica Neue', Helvetica,Arial, sans-serif;
+    margin-bottom: 0.8em;
+}
+
+/*== Cores ==*/
+.black {
+    color: rgb(66, 66, 66);
+}
+
+/*== Fundos ==*/
+
+
+
+/*== Redes Sociais ==*/
+.email {
+    color: rgb(255, 209, 72);
+}
+
+.facebook {
+    color: rgb(59, 89, 152);
+}
+
+.instagram {
+    color: rgb(81, 127, 164);
+}
+
+.linkedin {
+    color: rgb( 0, 123, 182);
+}
+
+.redes-sociais:hover {
+    opacity: 0.7;
+}
