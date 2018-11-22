@@ -191,6 +191,8 @@ header.masthead h1 {
 
 /*=== Calculo ===*/
 .calculo {
+  padding-top: 11rem;
+  padding-bottom: 11rem;
   background: #2a88d9;
 }
 
@@ -236,7 +238,7 @@ header.masthead h1 {
 
 /*== Mais informações ==*/
 .mais-informacoes {
-  padding-top: 17rem;
+  padding-top: 16rem;
   padding-bottom: 18rem;
   background: #04e6ad;
 }
